@@ -1,0 +1,604 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+ 
+ ::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+ }
+ 
+ ::-webkit-scrollbar-track{
+    background-color: transparent;
+ }
+ 
+ ::-webkit-scrollbar-thumb{
+    background-color:rgb(190 156 121) ;
+ }
+
+ html{
+    scroll-behavior: smooth;
+ }
+
+header{
+    display: block;
+    position: fixed;
+    height:5rem ;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 2px rgb(190 156 121);
+}
+
+.logo
+{
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 200px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.logo img
+{
+    height: 3rem;
+    width: 3rem;   
+}
+.nav-bar
+{
+    position:absolute;
+    height: 3rem;
+    width: 35rem;
+    display: inline-block;
+    margin: 15px 600px;
+    border-radius: 10px;
+    
+
+}
+
+.nav-bar ul {
+    
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 10px 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.nav-bar ul li{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+}
+
+.nav-bar ul li a{
+    float: left;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+
+.home{
+    display: block;
+    height: 1000px;
+    width: 100%;
+    background-image:url(images/home-bg.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-color:transparent;
+}
+
+main .home h1
+{
+    display: inline-flex;
+    margin-left: 15px;
+    height: 5rem;
+    margin-top: 20%;
+    font-size: 6rem ;
+    color: var(--black);
+    font-family: "Merienda One", cursive;
+
+}
+
+main .home p
+{
+    display: inline-flex;
+    height: 30px;
+    width: 25em;
+    background-color:transparent;
+    margin-top: 10px;
+    margin-left: 120px;
+    text-align:center;
+    font-style: italic;
+
+}
+
+main .home button
+{
+    display: inline-flex;
+    height: 2rem;
+    width: 8em;
+    background-color: rgb(190 156 121);
+    margin-left: 250px;
+    align-items: center;
+    padding-left:14px;
+    margin-top: 10px;
+    border-color: transparent;
+    
+}
+
+main .home button a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+
+}
+
+
+.about{
+    display: block;
+    height: 150vh;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.abt-image{
+    height: 90vh;
+    width: 50%;
+    background-image: url(images/about-img.svg);
+    background-size:  80vh;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-position-y: 100%;
+    padding-left: 20px;
+    
+    
+}
+
+.abt-image ul li{
+    text-align: center;
+    list-style-type: none;
+}
+
+.abt-image ul li h1{
+    display: inline-flex;  
+    width: 45rem;
+    background-color:transparent;
+    margin-left: 70%;
+    margin-top: 30%;
+    font-family: "Merienda One", cursive;
+    font-size: 3.5rem;
+
+
+}
+
+.abt-image ul li p{
+    display: inline-flex;
+    height: 5rem;
+    width: 70%;
+    margin-left: 80%;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    
+}
+
+.abt-image ul li button{
+    display: inline-flex;
+    height: 2rem;
+    width: 9rem;  
+    background-color: rgb(190 156 121);
+    margin-left: 105%;
+    margin-top: 20px;
+    padding: 5px 30px;
+    border-color: transparent;
+    
+}
+
+.abt-image ul li button a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.facility img{
+    
+    display: block;
+    height: 7vh;
+    width: 12rem;
+    background-color: white;
+    margin-left: 45%;
+    border-radius: 20px;
+}
+
+.facility ul li h2{
+    
+    display: block;
+    height: 4vh;
+    width: 15rem;
+    background-color: white;
+    margin-left: 44%;
+    border-radius: 20px;
+    font-family:"Merienda One", cursive ;
+    font-size: 40px;
+}
+
+.facility-pics{
+    text-align:center;
+}
+
+.facility-pics ul{
+    display:inline-flex;
+    height: 36vh;
+    width: 85%;
+    justify-content: space-around; 
+    margin-top: 50px;  
+    list-style-type: none;
+}
+
+.facility-pics ul li{
+    height: 36vh;
+    width: 20%;
+    list-style-type: none;
+}
+
+
+
+.facility-pics ul li p{
+    height: 5vh;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.facility-pics ul li h2{
+
+    height: 5vh;
+    width: 100%;
+    margin-left: 5px;
+    border-radius: 20px;
+
+}
+
+.menu{
+    display: block;
+    height:  120vh;
+    width: 100%;
+    
+}
+
+.menu-logo {
+
+    margin-top: 55px;
+}
+
+
+.menu-logo ul li img{
+    
+    display: block;
+    height: 7vh;
+    width: 12rem;
+    background-color: white;
+    margin-left: 45%;
+    border-radius: 20px;
+}
+
+.menu-logo ul li h2{
+    
+    display: block;
+    height: 4vh;
+    width: 16rem;
+    background-color: white;
+    margin-left: 43%;
+    font-family:"Merienda One", cursive ;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.menu-pic1, .menu-pic2{
+    text-align: center;
+}
+
+.menu-pic1 ul, .menu-pic2 ul{
+    display:inline-flex;
+    height: 45vh;
+    width: 60%;
+    justify-content:center;
+    
+
+}
+
+.menu-pic1 ul li , .menu-pic2 ul li{
+    height: 35vh;
+    width: 60vh;
+    padding-right: 10px;
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+.menu-pic1 ul li img, .menu-pic2 ul li img{
+    
+    height: 40vh;
+    width:100%;
+    
+}
+
+.menu-pic1 ul li h4, .menu-pic2 ul li h4
+{
+    height: 5vh;
+    width: 95%;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery{
+    display: block;
+    height: 205vh;
+    width: 100%;
+
+}
+
+.gall-logo{
+    margin-top: 55px;
+}
+
+.gall-logo ul li img{
+    
+    display: block;
+    height: 7vh;
+    width: 12rem;
+    margin-left: 45%;
+    border-radius: 20px;
+}
+
+.gall-logo ul li h2{
+    
+    display: block;
+    height: 4vh;
+    width: 12rem;
+    margin-left: 47%;
+    font-family:"Merienda One", cursive ;
+    font-size: 40px;
+}
+
+.gal-img table{
+    height: 31rem;
+    width: 80%;
+    margin-left: 10%;  
+    border-collapse: collapse;
+}
+
+
+.gal-img td{
+    height: 16rem;
+    width: 6rem;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.gal-img img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.team{
+    display: block;
+    height: 120vh;
+    width: 100%;
+}
+
+.team-logo{
+    margin-top: 55px;
+}
+
+.team-logo ul li img{
+    
+    display: block;
+    height: 7vh;
+    width: 12rem;
+    margin-left: 45%;
+    border-radius: 20px;
+}
+
+.team-logo ul li h2{
+    
+    display: block;
+    height: 4vh;
+    width: 15rem;
+    margin-left: 45%;
+    font-family:"Merienda One", cursive ;
+    font-size: 40px;
+}
+
+.team-img table{
+    height: 31rem;
+    width: 70%;
+    margin-left: 15%;  
+    border-collapse: collapse;
+
+}
+
+
+.team-img td{
+    height: 20rem;
+    width: 6rem;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.team-img img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.team-img h5{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: large;
+}
+
+.contact{
+    display: block;
+    height:  155vh;
+    width: 100%;
+    
+}
+
+.con-logo{
+    margin-top: 25px;
+}
+
+
+.con-logo ul li img{
+    
+    display: block;
+    height: 7vh;
+    width: 12rem;
+    background-color: white;
+    margin-left: 45%;
+    border-radius: 20px;
+    
+}
+
+.con-logo ul li h2{
+    
+    display: block;
+    height: 4vh;
+    width: 15rem;
+    margin-left: 46%;
+    font-family:"Merienda One", cursive ;
+    font-size: 40px;
+}
+
+.con-img {
+    height: 35rem;
+    width: 40%;
+    background-image: url(images/contact-img.svg);
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-size: cover;
+}
+
+fieldset {
+    display: inline-block;
+    margin-left: 110%;
+    margin-top: 20%;
+    height: 50vh;
+    width: 70vh;
+    text-align: center;
+    border: 2px solid;
+    
+}
+
+fieldset ul li{
+    margin: 25px;
+    list-style-type: none;
+}
+
+fieldset ul li h1{
+    font-size: 30px;
+}
+
+fieldset ul li input {
+    text-align: center;
+    height: 6vh;
+    width: 95%;
+    border: 2px solid black;
+}
+:placeholder-shown{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.send{
+    background-color: rgb(190 156 121);
+    color: aliceblue;
+    width: auto;
+    padding: 10px;
+    font-size: large;
+    border-color: transparent;
+}
+
+.con-pics{
+    text-align:center;
+}
+
+.con-pics ul{
+    display:inline-flex;
+    height: 30vh;
+    width: 80%;
+    justify-content: space-around;   
+}
+
+
+.con-pics ul li{
+    height: 36vh;
+    width: 20%;
+    list-style-type: none;
+}
+
+.con-pics ul li i{
+    height: 9vh;
+    width:70px;
+    background-color: rgb(190 156 121);
+    border-radius:50%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color:white;
+}
+
+.con-pics ul li p{
+    height: 3vh;
+    width: 90%;
+    margin-top: 0px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.con-pics ul li h3{
+
+    height: 3vh;
+    width: 90%;
+    margin-left: 11px;
+    border-radius: 20px;
+    font-size: 3vh;
+
+}
+
+hr{
+    border: 2px solid;
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+}
+
+h5{
+    height: 1rem;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+span
+{
+    color:rgb(190 156 121) ;
+}
+
+    
